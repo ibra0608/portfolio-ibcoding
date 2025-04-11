@@ -353,11 +353,13 @@ html {
     font-size: 17px;
     font-weight: 400;
     margin-right: 20px;
+    text-decoration: none;
 }
 .about-contents .about-items .about-right p  {
     color: #ffffff;    
     font-size: 17px;
     margin: 10px 0 14px 0;
+    text-decoration: none;
 }
 .about-contents .about-right .btn  {
     margin: 5px 0;
