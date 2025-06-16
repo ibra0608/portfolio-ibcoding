@@ -163,6 +163,9 @@
     .main-contents {
         min-height: 60vh;
     }
+    .about-container {
+        min-height: 60vh;
+    }
     /* End Media Query Navigation Section */
     /* Start Media Query About Section */
     .about-container .about-items {
