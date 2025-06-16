@@ -520,7 +520,7 @@
     /* End Media Query Resume Section */
     /* Start Media Query Skills Icons Section */
     .icons-container {
-        min-height: 60vh;
+        min-height: 55vh;
     }
     .icons-container .background-icons {
         width: 88%;
