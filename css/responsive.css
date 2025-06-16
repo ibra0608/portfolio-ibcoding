@@ -130,9 +130,6 @@
 
   /* Media Query Max 900px for large phones and small tablets */
   @media only screen and (max-width: 940px) {
-    .main-contents {
-        min-height: 55vh;
-    }
     /* Start Media Query Navigation Section */
     .top-header {
         height: 85px;
@@ -162,6 +159,9 @@
     }
     .open-menu {
         display: block;
+    }
+    .main-contents {
+        min-height: 60vh;
     }
     /* End Media Query Navigation Section */
     /* Start Media Query About Section */
@@ -345,7 +345,7 @@
         display: block;
     }
     .main-contents {
-        min-height: 58vh;
+        min-height: 60vh;
     }
     .main-contents .contents h1 {
         font-size: 60px;
@@ -476,7 +476,7 @@
         width: 88%;
     }
     .main-contents {
-        min-height: 55vh;
+        min-height: 60vh;
     }
     .main-contents .contents h1 {
         font-size: 45px;
