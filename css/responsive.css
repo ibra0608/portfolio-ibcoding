@@ -356,6 +356,9 @@
     /* End Media Query Navigation Section */
 
     /* Start Media Query About Section */
+    .about-container {
+        min-height: 60vh;
+    }
     .about-container .about-items .about-right {
         width: 90%; /* Further reduce section width */
         margin-top: 30px;
@@ -488,6 +491,9 @@
         width: 100%;
     }
     /* Start Media Query About Section */
+    .about-container {
+        min-height: 60vh;
+    }
     .about-container .about-items .about-right {
         width: 90%;
     }
