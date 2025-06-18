@@ -130,6 +130,9 @@
 
   /* Media Query Max 900px for large phones and small tablets */
   @media only screen and (max-width: 940px) {
+    .main-contents {
+        min-height: 55vh;
+    }
     /* Start Media Query Navigation Section */
     .top-header {
         height: 85px;
@@ -159,12 +162,6 @@
     }
     .open-menu {
         display: block;
-    }
-    .main-contents {
-        min-height: 60vh;
-    }
-    .about-container {
-        min-height: 60vh;
     }
     /* End Media Query Navigation Section */
     /* Start Media Query About Section */
@@ -348,7 +345,7 @@
         display: block;
     }
     .main-contents {
-        min-height: 60vh;
+        min-height: 58vh;
     }
     .main-contents .contents h1 {
         font-size: 60px;
@@ -356,9 +353,6 @@
     /* End Media Query Navigation Section */
 
     /* Start Media Query About Section */
-    .about-container {
-        min-height: 60vh;
-    }
     .about-container .about-items .about-right {
         width: 90%; /* Further reduce section width */
         margin-top: 30px;
@@ -394,8 +388,6 @@
     }
     .icons-container {
         margin: 55px 0;
-        width: 100%;
-        min-height: 55vh;
     }
     .icons-container .all-icons {
         max-width: 100%;
@@ -411,9 +403,7 @@
     /* End Media Query Skills Icons Section */
     /* Start Media Query Projects Section */
     .projects-container .projects-contents .all-boxes{
-        justify-content: space-between;
-        flex-wrap: wrap;
-        align-items: center;
+        padding-top: 30px;
     }
     .projects-container .projects-contents .boxes {
         width: 100%;
@@ -484,7 +474,7 @@
         width: 88%;
     }
     .main-contents {
-        min-height: 60vh;
+        min-height: 55vh;
     }
     .main-contents .contents h1 {
         font-size: 45px;
@@ -493,9 +483,6 @@
         width: 100%;
     }
     /* Start Media Query About Section */
-    .about-container {
-        min-height: 60vh;
-    }
     .about-container .about-items .about-right {
         width: 90%;
     }
@@ -522,8 +509,7 @@
     /* End Media Query Resume Section */
     /* Start Media Query Skills Icons Section */
     .icons-container {
-        width: 100%;
-        min-height: 55vh;
+        min-height: 60vh;
     }
     .icons-container .background-icons {
         width: 88%;
@@ -539,6 +525,11 @@
         height: 65px;
     }
     /* End Media Query Skills Icons Section */
+    /* Start Media Query Projects Section */
+    .projects-container .projects-contents .all-boxes{
+        padding-top: 30px;
+    }
+    /* End Media Query Projects Section */
     /* Start Media Query Portfolio Section */
     .portfolio-container .popup-img img:nth-child(2) {
         display: none;
